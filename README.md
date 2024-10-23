@@ -6,7 +6,7 @@
 ![Logo](assets/tool_logo.png) 
 -->
 <div align="right">
-    <img src="assets/tool_logo.png" alt="Logo" width="300" style="display: block; margin: 0;"/>
+    <img src="assets/tool_logo.png" alt="Logo" width="100" style="display: block; margin: 0;"/>
 </div>
 
 # REGULOMIC
