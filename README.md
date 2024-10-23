@@ -56,5 +56,5 @@ Please note that any third-party dependencies bundled with **REGULONIC** may hav
 
 If you use **REGULONIC** in your research, please cite:
 
-Zandigohar, M., et al., 2024. **REGULONIC: Regulatory Embedded Generative Unified Learning for Optimized Modeling and Inference of Cellular Transcription Factor Activity.** Journal/Conference Name. [DOI link here]
+Mehrdad Zandigohar, Jalees Rehman and Yang Dai. 2025. **REGULONIC: Regulatory Embedded Generative Unified Learning for Optimized Modeling and Inference of Cellular Transcription Factor Activity.** Journal/Conference Name. [DOI link here]
 
