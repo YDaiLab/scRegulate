@@ -1,3 +1,7 @@
+# REGULOMIC
+**R**egulatory **E**mbedded **G**enerative **U**nified **L**earning for **O**ptimized **M**odeling and **I**nference of Transcription Factor Activity and **C**lustering
+<!-- badges: start -->
+
 [![GitHub issues](https://img.shields.io/github/issues/zandigohar/REGULOMIC)](https://github.com/zandigohar/REGULOMIC/issues)
 ![Conda](https://img.shields.io/conda/dn/conda-forge/REGULOMIC)
 ![PyPI Downloads](https://img.shields.io/pypi/dm/REGULOMIC)
@@ -7,9 +11,7 @@
 -->
 <img src="assets/tool_logo.png" alt="Logo" width="300" style="float: right; margin-left: 20px; margin-bottom: 0;"/>
 
-
-# REGULOMIC
-**R**egulatory **E**mbedded **G**enerative **U**nified **L**earning for **O**ptimized **M**odeling and **I**nference of Transcription Factor Activity and **C**lustering
+<!-- badges: end -->
 
 ## Introduction
 
