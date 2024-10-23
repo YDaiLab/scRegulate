@@ -9,8 +9,8 @@ Before installing and running REGULONIC, ensure you have the following libraries
 
 - **PyTorch** (version 2.0 or higher)
 - **NumPy** (version 1.23 or higher)
-- **Scanpy** (version 1.9 or higher, if working with scRNA-seq data)
-- **Anndata** (version 0.8 or higher, for handling single-cell data)
+- **Scanpy** (version 1.9 or higher)
+- **Anndata** (version 0.8 or higher)
 
 You can install these dependencies using `pip`:
 
