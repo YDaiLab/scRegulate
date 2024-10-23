@@ -1,9 +1,9 @@
-![GitHub issues](https://img.shields.io/github/issues/zandigohar/REGULOMIC)
+[![GitHub issues](https://img.shields.io/github/issues/zandigohar/REGULOMIC)](https://github.com/zandigohar/REGULOMIC/issues)
 ![Conda](https://img.shields.io/conda/dn/conda-forge/REGULOMIC)
 ![PyPI Downloads](https://img.shields.io/pypi/dm/REGULOMIC)
 ![Documentation Status](https://readthedocs.org/projects/REGULOMIC/badge/?version=latest)
 
-
+https://github.com/zandigohar/REGULOMIC/issues
 
 # REGULOMIC
 **R**egulatory **E**mbedded **G**enerative **U**nified **L**earning for **O**ptimized **M**odeling and **I**nference of Transcription Factor Activity and **C**lustering
