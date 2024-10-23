@@ -8,7 +8,7 @@
 ![Documentation Status](https://readthedocs.org/projects/REGULOMIC/badge/?version=latest)
 
 ## Introduction
-**REGULOMIC** is a powerful tool designed for the inference of transcription factor activity using advanced generative modeling techniques. It leverages a unified learning framework to optimize the modeling of cellular regulatory networks, providing researchers with accurate insights into transcriptional regulation. With its efficient clustering capabilities, **REGULOMIC** facilitates the analysis of complex biological data, making it an essential resource for studies in genomics and molecular biology.
+**REGULOMIC** is a powerful tool designed for the inference of transcription factor activity from single cell/nucleus RNA data using advanced generative modeling techniques. It leverages a unified learning framework to optimize the modeling of cellular regulatory networks, providing researchers with accurate insights into transcriptional regulation. With its efficient clustering capabilities, **REGULOMIC** facilitates the analysis of complex biological data, making it an essential resource for studies in genomics and molecular biology.
 
 ## Requirements
 REGULOMIC is implemented in the PyTorch framework. Running REGULOMIC on CUDA is highly recommended if available.
