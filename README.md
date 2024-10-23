@@ -5,9 +5,9 @@
 <!-- 
 ![Logo](assets/tool_logo.png) 
 -->
-|   |   |
-|---|---|
-|   | <img src="assets/tool_logo.png" alt="Logo" width="300"/> |
+<div align="right">
+    <img src="assets/tool_logo.png" alt="Logo" width="300" style="display: block; margin: 0;"/>
+</div>
 
 # REGULOMIC
 **R**egulatory **E**mbedded **G**enerative **U**nified **L**earning for **O**ptimized **M**odeling and **I**nference of Transcription Factor Activity and **C**lustering
