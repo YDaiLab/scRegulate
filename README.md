@@ -2,7 +2,10 @@
 ![Conda](https://img.shields.io/conda/dn/conda-forge/REGULOMIC)
 ![PyPI Downloads](https://img.shields.io/pypi/dm/REGULOMIC)
 ![Documentation Status](https://readthedocs.org/projects/REGULOMIC/badge/?version=latest)
-![Logo](assets/tool_logo.png)
+<!-- 
+![Logo](assets/tool_logo.png) 
+-->
+<img src="assets/tool_logo.png" alt="Logo" width="300"/>
 
 # REGULOMIC
 **R**egulatory **E**mbedded **G**enerative **U**nified **L**earning for **O**ptimized **M**odeling and **I**nference of Transcription Factor Activity and **C**lustering
