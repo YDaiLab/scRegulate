@@ -1,19 +1,12 @@
 # REGULOMIC
-**R**egulatory **E**mbedded **G**enerative **U**nified **L**earning for **O**ptimized **M**odeling and **I**nference of Transcription Factor Activity and **C**lustering
-<!-- badges: start -->
+**R**egulatory **E**mbedded **G**enerative **U**nified **L**earning for **O**ptimized **M**odeling and **I**nference of Transcription Factor Activity and **C**lustering<img src="assets/tool_logo.png" align="right" width="120" class="no-scaled-link" />
+
 
 [![GitHub issues](https://img.shields.io/github/issues/zandigohar/REGULOMIC)](https://github.com/zandigohar/REGULOMIC/issues)
 ![Conda](https://img.shields.io/conda/dn/conda-forge/REGULOMIC)
 ![PyPI Downloads](https://img.shields.io/pypi/dm/REGULOMIC)
 ![Documentation Status](https://readthedocs.org/projects/REGULOMIC/badge/?version=latest)
-<!-- 
-![Logo](assets/tool_logo.png) 
--->
-<img src="assets/tool_logo.png" alt="Logo" width="300" style="float: right; margin-left: 20px; margin-bottom: 0;"/>
 
-<!-- badges: end -->
-
-## Introduction
 
 **REGULOMIC** is a powerful tool designed for the inference of transcription factor activity using advanced generative modeling techniques. It leverages a unified learning framework to optimize the modeling of cellular regulatory networks, providing researchers with accurate insights into transcriptional regulation. With its efficient clustering capabilities, **REGULOMIC** facilitates the analysis of complex biological data, making it an essential resource for studies in genomics and molecular biology.
 
