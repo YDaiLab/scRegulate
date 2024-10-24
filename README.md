@@ -32,33 +32,33 @@ pip install torch numpy scanpy anndata
 
 ## Installation
 
-You can install **REGULONIC** via pip for a lightweight installation:
+You can install **REGULOMIC** via pip for a lightweight installation:
 
 ```bash
-pip install regulonic
+pip install regulomic
 ```
 
 Alternatively, if you want the latest, unreleased version, you can install it directly from the source on GitHub:
 
 ```bash
-pip install git+https://github.com/zandigohar/REGULONIC.git
+pip install git+https://github.com/zandigohar/REGULOMIC.git
 ```
 
 For users who prefer Conda or Mamba for environment management, you can install **REGULONIC** along with extra dependencies using:
 
 ```bash
-mamba create -n=regulonic conda-forge::regulonic
+mamba create -n=regulonic conda-forge::regulomic
 ```
 
 ## License
 
-The code in **REGULONIC** is licensed under the [MIT License](https://opensource.org/licenses/MIT), which permits academic and commercial use, modification, and distribution. 
+The code in **REGULOMIC** is licensed under the [MIT License](https://opensource.org/licenses/MIT), which permits academic and commercial use, modification, and distribution. 
 
-Please note that any third-party dependencies bundled with **REGULONIC** may have their own respective licenses.
+Please note that any third-party dependencies bundled with **REGULOMIC** may have their own respective licenses.
 
 ## Citation
 
-If you use **REGULONIC** in your research, please cite:
+If you use **REGULOMIC** in your research, please cite:
 
-Mehrdad Zandigohar, Jalees Rehman and Yang Dai. 2025. **REGULONIC: Regulatory Embedded Generative Unified Learning for Optimized Modeling and Inference of Cellular Transcription Factor Activity.** Journal/Conference Name. [DOI link here]
+Mehrdad Zandigohar, Jalees Rehman and Yang Dai. 2025. **REGULOMIC: Regulatory Embedded Generative Unified Learning for Optimized Modeling and Inference of Cellular Transcription Factor Activity.** Journal/Conference Name. [DOI link here]
 
