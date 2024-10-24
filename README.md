@@ -11,7 +11,7 @@
 
 For further information and example tutorials, please check our [documentation](https://readthedocs.org/projects/REGULOMICS/badge/?version=latest).
 
-If you have any questions or concerns feel free to [open an issue](https://github.com/zandigohar/REGULOMICS/issues).
+If you have any questions or concerns feel free to [open an issue](https://github.com/YDaiLab/REGULOMICS/issues).
 
 ## Requirements
 REGULOMICS is implemented in the PyTorch framework. Running REGULOMICS on CUDA is highly recommended if available.
@@ -40,7 +40,7 @@ pip install REGULOMICS
 Alternatively, if you want the latest, unreleased version, you can install it directly from the source on GitHub:
 
 ```bash
-pip install git+https://github.com/zandigohar/REGULOMICS.git
+pip install git+https://github.com/YDaiLab/REGULOMICS.git
 ```
 
 For users who prefer Conda or Mamba for environment management, you can install **REGULOMICS** along with extra dependencies using:
