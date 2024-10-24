@@ -17,7 +17,7 @@ If you have any questions or concerns feel free to [open an issue](https://githu
 ## Requirements
 REGULOMIC is implemented in the PyTorch framework. Running REGULOMIC on CUDA is highly recommended if available.
 
-Before installing and running REGULONIC, ensure you have the following libraries installed:
+Before installing and running REGULOMIC, ensure you have the following libraries installed:
 
 - **PyTorch** (version 2.0 or higher)
 - **NumPy** (version 1.23 or higher)
@@ -44,10 +44,10 @@ Alternatively, if you want the latest, unreleased version, you can install it di
 pip install git+https://github.com/zandigohar/REGULOMIC.git
 ```
 
-For users who prefer Conda or Mamba for environment management, you can install **REGULONIC** along with extra dependencies using:
+For users who prefer Conda or Mamba for environment management, you can install **REGULOMIC** along with extra dependencies using:
 
 ```bash
-mamba create -n=regulonic conda-forge::regulomic
+mamba create -n=regulomic conda-forge::regulomic
 ```
 
 ## License
