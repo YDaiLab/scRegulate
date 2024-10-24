@@ -1,5 +1,5 @@
 # REGULOMICS<img src="assets/tool_logo.svg" align="right" width="360" class="no-scaled-link" />
-**R**egulatory **E**mbedded **G**enerative **U**nified **L**earning for **O**ptimized **M**odeling and **I**nference of Transcription Factor Activity and **C**lustering in ScRNA-seq **O**mics
+**R**egulatory **E**mbedded **G**enerative **U**nified **L**earning for **O**ptimized **M**odeling and **I**nference of Transcription Factor Activity and **C**lustering in **S**cRNA-seq Omics
 
 [![GitHub issues](https://img.shields.io/github/issues/zandigohar/REGULOMICS)](https://github.com/zandigohar/REGULOMICS/issues)
 ![Conda](https://img.shields.io/conda/dn/conda-forge/REGULOMICS)
