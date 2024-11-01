@@ -60,5 +60,5 @@ Please note that any third-party dependencies bundled with **scRegulate** may ha
 
 If you use **scRegulate** in your research, please cite:
 
-Mehrdad Zandigohar, Jalees Rehman and Yang Dai. 2025. **scRegulate: Regulatory Embedded Generative Unified Learning for Optimized Modeling and Inference of Cellular Transcription Factor Activity.** Journal/Conference Name. [DOI link here]
+Mehrdad Zandigohar, Jalees Rehman and Yang Dai. 2025. **scRegulate: Single-Cell Regulatory-Embedded Variational Inference of Transcription Factor Activity from Gene Expression** Journal/Conference Name. [DOI link here]
 
