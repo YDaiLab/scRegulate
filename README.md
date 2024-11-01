@@ -1,22 +1,23 @@
-# REGULOMICS<img src="assets/tool_logo.svg" align="right" width="360" class="no-scaled-link" />
-**R**egulatory **E**mbedded **G**enerative **U**nified **L**earning for **O**ptimized **M**odeling and **I**nference of Transcription Factor Activity and **C**lustering in **S**cRNA-seq Omics
+# scRegulate<img src="assets/tool_logo.svg" align="right" width="360" class="no-scaled-link" />
+**S**ingle-**C**ell **Regula**tory-Embedded Variational Inference of **T**ranscription Factor Activity from Gene **E**xpression
 
-[![GitHub issues](https://img.shields.io/github/issues/YDaiLab/REGULOMICS)](https://github.com/YDaiLab/REGULOMICS/issues)
-![Conda](https://img.shields.io/conda/dn/conda-forge/REGULOMICS)
-![PyPI Downloads](https://img.shields.io/pypi/dm/REGULOMICS)
-![Documentation Status](https://readthedocs.org/projects/REGULOMICS/badge/?version=latest)
+
+[![GitHub issues](https://img.shields.io/github/issues/YDaiLab/scRegulate)](https://github.com/YDaiLab/scRegulate/issues)
+![Conda](https://img.shields.io/conda/dn/conda-forge/scRegulate)
+![PyPI Downloads](https://img.shields.io/pypi/dm/scRegulate)
+![Documentation Status](https://readthedocs.org/projects/scRegulate/badge/?version=latest)
 
 ## Introduction
-**REGULOMICS** is a powerful tool designed for the inference of transcription factor activity from single cell/nucleus RNA data using advanced generative modeling techniques. It leverages a unified learning framework to optimize the modeling of cellular regulatory networks, providing researchers with accurate insights into transcriptional regulation. With its efficient clustering capabilities, **REGULOMICS** facilitates the analysis of complex biological data, making it an essential resource for studies in genomics and molecular biology.
+**scRegulate** is a powerful tool designed for the inference of transcription factor activity from single cell/nucleus RNA data using advanced generative modeling techniques. It leverages a unified learning framework to optimize the modeling of cellular regulatory networks, providing researchers with accurate insights into transcriptional regulation. With its efficient clustering capabilities, **scRegulate** facilitates the analysis of complex biological data, making it an essential resource for studies in genomics and molecular biology.
 
-For further information and example tutorials, please check our [documentation](https://readthedocs.org/projects/REGULOMICS/badge/?version=latest).
+For further information and example tutorials, please check our [documentation](https://readthedocs.org/projects/scRegulate/badge/?version=latest).
 
-If you have any questions or concerns feel free to [open an issue](https://github.com/YDaiLab/REGULOMICS/issues).
+If you have any questions or concerns feel free to [open an issue](https://github.com/YDaiLab/scRegulate/issues).
 
 ## Requirements
-REGULOMICS is implemented in the PyTorch framework. Running REGULOMICS on CUDA is highly recommended if available.
+scRegulate is implemented in the PyTorch framework. Running scRegulate on CUDA is highly recommended if available.
 
-Before installing and running REGULOMICS, ensure you have the following libraries installed:
+Before installing and running scRegulate, ensure you have the following libraries installed:
 
 - **PyTorch** (version 2.0 or higher)
 - **NumPy** (version 1.23 or higher)
@@ -31,33 +32,33 @@ pip install torch numpy scanpy anndata
 
 ## Installation
 
-You can install **REGULOMICS** via pip for a lightweight installation:
+You can install **scRegulate** via pip for a lightweight installation:
 
 ```bash
-pip install REGULOMICS
+pip install scRegulate
 ```
 
 Alternatively, if you want the latest, unreleased version, you can install it directly from the source on GitHub:
 
 ```bash
-pip install git+https://github.com/YDaiLab/REGULOMICS.git
+pip install git+https://github.com/YDaiLab/scRegulate.git
 ```
 
-For users who prefer Conda or Mamba for environment management, you can install **REGULOMICS** along with extra dependencies using:
+For users who prefer Conda or Mamba for environment management, you can install **scRegulate** along with extra dependencies using:
 
 ```bash
-mamba create -n=REGULOMICS conda-forge::REGULOMICS
+mamba create -n=scRegulate conda-forge::scRegulate
 ```
 
 ## License
 
-The code in **REGULOMICS** is licensed under the [MIT License](https://opensource.org/licenses/MIT), which permits academic and commercial use, modification, and distribution. 
+The code in **scRegulate** is licensed under the [MIT License](https://opensource.org/licenses/MIT), which permits academic and commercial use, modification, and distribution. 
 
-Please note that any third-party dependencies bundled with **REGULOMICS** may have their own respective licenses.
+Please note that any third-party dependencies bundled with **scRegulate** may have their own respective licenses.
 
 ## Citation
 
-If you use **REGULOMICS** in your research, please cite:
+If you use **scRegulate** in your research, please cite:
 
-Mehrdad Zandigohar, Jalees Rehman and Yang Dai. 2025. **REGULOMICS: Regulatory Embedded Generative Unified Learning for Optimized Modeling and Inference of Cellular Transcription Factor Activity.** Journal/Conference Name. [DOI link here]
+Mehrdad Zandigohar, Jalees Rehman and Yang Dai. 2025. **scRegulate: Regulatory Embedded Generative Unified Learning for Optimized Modeling and Inference of Cellular Transcription Factor Activity.** Journal/Conference Name. [DOI link here]
 
