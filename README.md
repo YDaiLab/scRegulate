@@ -15,7 +15,7 @@ For further information and example tutorials, please check our [documentation](
 If you have any questions or concerns feel free to [open an issue](https://github.com/YDaiLab/scRegulate/issues).
 
 ## Requirements
-scRegulate is implemented in the PyTorch framework. Running scRegulate on CUDA is highly recommended if available.
+scRegulate is implemented in the PyTorch framework. Running scRegulate on `CUDA` is highly recommended if available.
 
 Before installing and running scRegulate, ensure you have the following libraries installed:
 
