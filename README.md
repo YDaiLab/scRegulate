@@ -58,7 +58,7 @@ Please note that any third-party dependencies bundled with **scRegulate** may ha
 
 ## Citation
 
-If you use **scRegulate** in your research, please cite:
+**scRegulate** manuscript is currently under peer review. If you use **scRegulate** in your research, please cite:
 
 Mehrdad Zandigohar, Jalees Rehman and Yang Dai (2025). **scRegulate: Single-Cell Regulatory-Embedded Variational Inference of Transcription Factor Activity from Gene Expression**, Journal/Conference Name. [DOI link here]
 
