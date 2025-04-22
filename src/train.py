@@ -1,11 +1,11 @@
 import time
 import torch
-import ulm_standalone as ulm
 import pandas as pd
 import numpy as np
 import scanpy as sc
 import gc
 import logging
+from . import ulm_standalone as ulm
 from .vae_model import scRNA_VAE
 from .loss_functions import loss_function
 from sklearn.preprocessing import MinMaxScaler
