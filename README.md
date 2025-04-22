@@ -62,3 +62,6 @@ Please note that any third-party dependencies bundled with **scRegulate** may ha
 
 Mehrdad Zandigohar, Jalees Rehman and Yang Dai (2025). **scRegulate: Single-Cell Regulatory-Embedded Variational Inference of Transcription Factor Activity from Gene Expression**, Bioinformatics Journal (under review). [DOI link here]
 
+📄 Read the preprint on bioRxiv: [10.1101/2025.04.17.649372](https://doi.org/10.1101/2025.04.17.649372)
+
+
