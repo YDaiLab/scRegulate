@@ -6,10 +6,10 @@ import numpy as np
 import scanpy as sc
 import gc
 import logging
-from vae_model import scRNA_VAE
-from loss_functions import loss_function
+from .vae_model import scRNA_VAE
+from .loss_functions import loss_function
 from sklearn.preprocessing import MinMaxScaler
-from utils import (
+from .utils import (
     create_dataloader,
     schedule_parameter,
     schedule_mask_factor,
