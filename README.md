@@ -13,7 +13,7 @@
 ---
 
 <hr />
-<img src="assets/Visual_Abstract.png" align="center" width="720" class="no-scaled-link" />
+<img src="assets/Visual_Abstract.png" align="center" width="300" class="no-scaled-link" />
 <hr />
 
 ---
