@@ -5,11 +5,11 @@ from optuna.samplers import TPESampler, NSGAIISampler, QMCSampler
 from optuna.pruners import HyperbandPruner, SuccessiveHalvingPruner
 
 import logging
-from utils import set_active_modality
+from .utils import set_active_modality
 
-from fine_tuning import fine_tune_clusters
-from train import train_model
-from train import adapt_prior_and_data
+from .fine_tuning import fine_tune_clusters
+from .train import train_model
+from .train import adapt_prior_and_data
 
 # ---------- Logger Configuration ----------
 autotune_logger = logging.getLogger("autotune")
