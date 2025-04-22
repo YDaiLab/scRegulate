@@ -13,6 +13,7 @@
 ---
 <img src="assets/Visual_Abstract.png" align="right" width="360" class="no-scaled-link" />
 ---
+
 For further information and example tutorials, please check our [documentation](https://readthedocs.org/projects/scRegulate/badge/?version=latest).
 
 If you have any questions or concerns feel free to [open an issue](https://github.com/YDaiLab/scRegulate/issues).
