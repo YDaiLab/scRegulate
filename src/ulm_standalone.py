@@ -21,7 +21,7 @@ import logging
 import warnings
 
 logger = logging.getLogger(__name__)
-from utils import set_random_seed
+from .utils import set_random_seed
 set_random_seed()
 # --- Helper Functions ---
 
