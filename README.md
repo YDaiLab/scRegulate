@@ -9,7 +9,10 @@
 
 ## Introduction
 **scRegulate** is a powerful tool designed for the inference of transcription factor activity from single cell/nucleus RNA data using advanced generative modeling techniques. It leverages a unified learning framework to optimize the modeling of cellular regulatory networks, providing researchers with accurate insights into transcriptional regulation. With its efficient clustering capabilities, **scRegulate** facilitates the analysis of complex biological data, making it an essential resource for studies in genomics and molecular biology.
+
+
 <img src="assets/Visual_Abstract.png" align="right" width="360" class="no-scaled-link" />
+
 
 For further information and example tutorials, please check our [documentation](https://readthedocs.org/projects/scRegulate/badge/?version=latest).
 
