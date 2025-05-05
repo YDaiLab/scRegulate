@@ -1,26 +1,41 @@
-package:
-  name: scregulate
-  version: "0.1.1"  # match your version
+name: Publish Conda Package
 
-source:
-  path: ..
+on:
+  release:
+    types: [published]
 
-build:
-  noarch: python
-  script: python -m pip install .
+jobs:
+  build-and-upload-conda:
+    runs-on: ubuntu-latest
 
-requirements:
-  host:
-    - python >=3.8
-    - pip
-  run:
-    - python >=3.8
-    - torch >=2.0
-    - numpy >=1.23
-    - scanpy >=1.9
-    - anndata >=0.8
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-about:
-  home: https://github.com/YDaiLab/scRegulate
-  license: MIT
-  summary: Python Toolkit for Transcription Factor Activity Inference and Clustering of scRNA-seq Data
+      - name: Setup Miniconda
+        uses: conda-incubator/setup-miniconda@v3.0.4
+        with:
+          auto-update-conda: true
+          python-version: 3.9
+          activate-environment: build_env
+
+      - name: Install conda-build and anaconda-client
+        shell: bash -l {0}
+        run: |
+          conda install -n build_env -c conda-forge conda-build anaconda-client -y
+
+      - name: Build conda package
+        shell: bash -l {0}
+        run: |
+          conda activate build_env
+          conda build conda.recipe --output-folder dist
+
+      - name: Upload to Anaconda
+        shell: bash -l {0}
+        env:
+          ANACONDA_TOKEN: ${{ secrets.ANACONDA_TOKEN }}
+        run: |
+          conda activate build_env
+          for file in dist/*/*.tar.bz2; do
+            anaconda -t "$ANACONDA_TOKEN" upload "$file" --force
+          done
