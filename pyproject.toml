@@ -1,10 +1,11 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+[build-system]
+requires = ["setuptools >= 77.0.3"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "scRegulate"
-version = "0.1.1"
+version = "0.1.2"
 description = "Python Toolkit for Transcription Factor Activity Inference and Clustering of scRNA-seq Data"
 readme = "README.md"
 requires-python = ">=3.8"
