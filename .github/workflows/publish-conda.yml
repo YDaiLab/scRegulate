@@ -29,7 +29,7 @@ jobs:
       - name: Build conda package
         shell: bash -l {0}
         run: |
-          conda build conda.recipe --output-folder dist
+          conda build conda.recipe --output-folder dist --channel conda-forge --channel pytorch
 
       - name: Upload to Anaconda
         shell: bash -l {0}
