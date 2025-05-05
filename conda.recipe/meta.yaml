@@ -26,6 +26,10 @@ test:
     - scRegulate
   commands:
     - pip check
+  requires:
+    - pip
+  source_files:
+    - setup.py
 
 about:
   home: https://github.com/YDaiLab/scRegulate
