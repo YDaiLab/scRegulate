@@ -8,6 +8,7 @@ source:
 build:
   noarch: python
   script: python -m pip install .
+  number: 0
 
 requirements:
   host:
@@ -20,7 +21,19 @@ requirements:
     - scanpy >=1.9
     - anndata >=0.8
 
+test:
+  imports:
+    - scRegulate
+  commands:
+    - pip check
+
 about:
   home: https://github.com/YDaiLab/scRegulate
+  dev_url: https://github.com/YDaiLab/scRegulate
   license: MIT
+  license_file: LICENSE
   summary: Python Toolkit for Transcription Factor Activity Inference and Clustering of scRNA-seq Data
+  description: |
+    scRegulate is a Python toolkit designed for inferring transcription factor activity
+    and clustering single-cell RNA-seq data using variational inference with biological priors.
+    It is built on PyTorch and Scanpy, and supports CUDA acceleration for high-performance inference.
