@@ -12,12 +12,12 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python
     - pip
   run:
-    - python >=3.8
+    - python
     - torch >=2.0
-    - numpy >=1.23
+    - numpy
     - scanpy >=1.9
     - anndata >=0.8
 
