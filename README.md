@@ -4,7 +4,7 @@
 
 [![GitHub issues](https://img.shields.io/github/issues/YDaiLab/scRegulate)](https://github.com/YDaiLab/scRegulate/issues)
 ![Conda](https://img.shields.io/conda/dn/conda-forge/scRegulate)
-![PyPI Downloads](https://img.shields.io/pypi/dm/scRegulate)(https://pypi.org/project/scRegulate/)
+[![PyPI Downloads](https://img.shields.io/pypi/dm/scRegulate)](https://pypi.org/project/scRegulate/)
 ![Documentation Status](https://readthedocs.org/projects/scRegulate/badge/?version=latest)
 
 ## Introduction
