@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="scRegualte",
+    name="scRegulate",
     version="0.1.0",
     author="Mehrdad Zandigohar",
     author_email="mehr.zgohar@gmail.com",
