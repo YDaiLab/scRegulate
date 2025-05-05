@@ -1,0 +1,4 @@
+torch>=2.0
+numpy>=1.23
+scanpy>=1.9
+anndata>=0.8

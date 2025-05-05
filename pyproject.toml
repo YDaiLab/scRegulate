@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scRegualte"
+version = "0.1.0"
+description = "Python Toolkit for Transcription Factor Activity Inference and Clustering of scRNA-seq Data"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+authors = [
+  {name = "Mehrdad Zandigohar", email = "mehr.zgohar@gmail.com"},
+]
+dependencies = [
+  "torch>=2.0",
+  "numpy>=1.23",
+  "scanpy>=1.9",
+  "anndata>=0.8"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/YDaiLab/scRegulate"
+"Documentation" = "https://github.com/YDaiLab/scRegulate#readme"
+"Issue Tracker" = "https://github.com/YDaiLab/scRegulate/issues"
+"Paper (bioRxiv)" = "https://doi.org/10.1101/2025.04.17.649372"
