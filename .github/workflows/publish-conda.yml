@@ -1,0 +1,26 @@
+package:
+  name: scregulate
+  version: "0.1.1"  # match your version
+
+source:
+  path: ..
+
+build:
+  noarch: python
+  script: python -m pip install .
+
+requirements:
+  host:
+    - python >=3.8
+    - pip
+  run:
+    - python >=3.8
+    - torch >=2.0
+    - numpy >=1.23
+    - scanpy >=1.9
+    - anndata >=0.8
+
+about:
+  home: https://github.com/YDaiLab/scRegulate
+  license: MIT
+  summary: Python Toolkit for Transcription Factor Activity Inference and Clustering of scRNA-seq Data
