@@ -20,15 +20,20 @@ jobs:
         with:
           python-version: "3.10"
 
-      - name: Install build backend
+      - name: Install build tools
         run: |
           python -m pip install --upgrade pip
           pip install build
 
-      - name: Build release distributions
+      - name: Inject version from GitHub tag
+        run: |
+          TAG_NAME="${GITHUB_REF##*/}"
+          echo "__version__ = '${TAG_NAME}'" > scRegulate/__version__.py
+
+      - name: Build distributions
         run: python -m build
 
-      - name: Upload built distributions
+      - name: Upload distributions as artifacts
         uses: actions/upload-artifact@v4
         with:
           name: release-dists
@@ -36,8 +41,7 @@ jobs:
 
   pypi-publish:
     runs-on: ubuntu-latest
-    needs:
-      - release-build
+    needs: release-build
     permissions:
       id-token: write
 
@@ -46,7 +50,7 @@ jobs:
       url: https://pypi.org/project/scRegulate/${{ github.event.release.tag_name }}
 
     steps:
-      - name: Download distributions
+      - name: Download built distributions
         uses: actions/download-artifact@v4
         with:
           name: release-dists
