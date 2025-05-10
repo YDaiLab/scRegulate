@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "scRegulate"
-version = "0.1.7"
+version = "0.1.8"
 description = "Python Toolkit for Transcription Factor Activity Inference and Clustering of scRNA-seq Data"
 readme = "README.md"
 requires-python = ">=3.8"
