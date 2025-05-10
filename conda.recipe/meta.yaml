@@ -8,7 +8,7 @@ source:
   path: ..
 
 build:
-  # Remove `noarch: python` if you want compatibility across Python versions
+  noarch: python
   script: python -m pip install .
   number: 0
 
