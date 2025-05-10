@@ -1,4 +1,5 @@
-# src/__init__.py
+# scregulate/__init__.py
+from .__version__ import __version__
 
 # Core training and auto-tuning
 from .train import train_model, adapt_prior_and_data
