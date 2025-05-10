@@ -31,9 +31,9 @@ jobs:
         shell: bash -l {0}
         run: |
           export GIT_TAG_NAME="${GITHUB_REF##*/}"
+          export GIT_TAG_NAME="${GIT_TAG_NAME#v}"  # strip leading "v" if present
           conda build conda.recipe --output-folder dist \
-            --channel conda-forge --channel pytorch \
-            --set GIT_TAG_NAME="$GIT_TAG_NAME"
+            --channel conda-forge --channel pytorch
 
       - name: Upload to Anaconda
         shell: bash -l {0}
