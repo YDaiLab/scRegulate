@@ -30,6 +30,9 @@ test:
     - pip
   source_files:
     - setup.py
+  channels:
+    - pytorch
+    - conda-forge
 
 about:
   home: https://github.com/YDaiLab/scRegulate
