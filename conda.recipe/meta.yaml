@@ -28,8 +28,6 @@ test:
     - pip check
   requires:
     - pip
-    - pytorch
-    - torch >=2.0
   source_files:
     - setup.py
 
