@@ -30,7 +30,8 @@ jobs:
         shell: bash -l {0}
         run: |
           conda config --add channels defaults
-          conda build conda.recipe --output-folder dist --channel conda-forge --channel pytorch
+          conda build conda.recipe --output-folder dist --channel pytorch --channel conda-forge --channel defaults
+
 
 
       - name: Upload to Anaconda
