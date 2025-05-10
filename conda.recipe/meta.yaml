@@ -1,4 +1,4 @@
-{% set version = GIT_TAG_NAME.lstrip("v") %}
+{% set version = environ.get('GIT_TAG_NAME', '0.0.0') %}
 
 package:
   name: scregulate
