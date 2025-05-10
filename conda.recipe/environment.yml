@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - pytorch
 dependencies:
-  - python=3.9
+  - python=3.10
   - pip
   - torch>=2.0
   - scanpy=1.10.4
