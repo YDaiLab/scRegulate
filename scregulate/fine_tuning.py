@@ -7,8 +7,8 @@ from torch.utils.data import DataLoader
 from sklearn.preprocessing import MinMaxScaler
 import logging
 import torch.nn.functional as F
-from loss_functions import loss_function  # Assuming your loss function module exists
-from utils import (
+from .loss_functions import loss_function
+from .utils import (
     set_random_seed,  # To ensure reproducibility
     create_dataloader,  # For DataLoader creation
     clear_memory,       # To handle memory cleanup
