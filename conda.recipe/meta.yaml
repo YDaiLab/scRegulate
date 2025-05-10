@@ -16,7 +16,7 @@ requirements:
     - pip
   run:
     - python >=3.12,<3.13
-    - torch >=2.3.1
+    - torch >=2.0
     - numpy >=1.26.4
     - scanpy >=1.10.4
     - anndata >=0.10.8
