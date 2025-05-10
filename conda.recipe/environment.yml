@@ -3,13 +3,10 @@ channels:
   - conda-forge
   - pytorch
 dependencies:
-  - python=3.10
+  - python=3.9
   - pip
-  - numpy>=1.26
-  - torch>=2.0,<2.3
-  - scanpy>=1.10,<1.11
-  - anndata>=0.10
-  - matplotlib-base>=3.6,<3.9
-  - pillow>=8.0
-  - conda-build
-  - anaconda-client
+  - torch>=2.0
+  - scanpy=1.10.4
+  - anndata=0.10.8
+  - numpy=1.26.4
+  - matplotlib-base>=3.6
