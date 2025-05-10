@@ -15,10 +15,11 @@ jobs:
       - name: Setup Miniconda
         uses: conda-incubator/setup-miniconda@v3.0.4
         with:
+          miniforge-setup: true
           auto-update-conda: true
           python-version: 3.10
           activate-environment: build_env
-          channels: conda-forge
+          channels: conda-forge,pytorch
           channel-priority: strict
 
       - name: Install conda-build and anaconda-client
@@ -29,10 +30,7 @@ jobs:
       - name: Build conda package
         shell: bash -l {0}
         run: |
-          conda config --add channels defaults
-          conda build conda.recipe --output-folder dist --channel pytorch --channel conda-forge --channel defaults
-
-
+          conda build conda.recipe --output-folder dist --channel conda-forge --channel pytorch
 
       - name: Upload to Anaconda
         shell: bash -l {0}
