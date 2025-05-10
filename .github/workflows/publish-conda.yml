@@ -22,8 +22,6 @@ jobs:
           channels: conda-forge,pytorch
           channel-priority: strict
 
-
-
       - name: Install conda-build and anaconda-client
         shell: bash -l {0}
         run: |
@@ -32,7 +30,10 @@ jobs:
       - name: Build conda package
         shell: bash -l {0}
         run: |
-          conda build conda.recipe --output-folder dist --channel conda-forge --channel pytorch
+          export GIT_TAG_NAME="${GITHUB_REF##*/}"
+          conda build conda.recipe --output-folder dist \
+            --channel conda-forge --channel pytorch \
+            --set GIT_TAG_NAME="$GIT_TAG_NAME"
 
       - name: Upload to Anaconda
         shell: bash -l {0}
