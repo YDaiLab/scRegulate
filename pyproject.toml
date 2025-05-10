@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "scRegulate"
-version = "0.1.15"
+dynamic = ["version"]
 description = "Python Toolkit for Transcription Factor Activity Inference and Clustering of scRNA-seq Data"
 readme = "README.md"
 requires-python = ">=3.8"
@@ -25,6 +25,8 @@ dependencies = [
 "Issue Tracker" = "https://github.com/YDaiLab/scRegulate/issues"
 "Paper (bioRxiv)" = "https://doi.org/10.1101/2025.04.17.649372"
 
+[tool.setuptools.dynamic]
+version = {attr = "scRegulate.__version__"}
+
 [tool.setuptools.packages.find]
 where = ["."]
-
