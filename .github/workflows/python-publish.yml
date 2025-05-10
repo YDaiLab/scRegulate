@@ -28,7 +28,7 @@ jobs:
       - name: Inject version from GitHub tag
         run: |
           TAG_NAME="${GITHUB_REF##*/}"
-          echo "__version__ = '${TAG_NAME}'" > scRegulate/__version__.py
+          echo "__version__ = '${TAG_NAME}'" > scregulate/__version__.py
 
       - name: Build distributions
         run: python -m build
