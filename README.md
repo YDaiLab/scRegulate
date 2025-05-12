@@ -16,7 +16,7 @@
 
 For further information and example tutorials, please check our [documentation](https://readthedocs.org/projects/scRegulate/badge/?version=latest).
 
-If you have any questions or concerns feel free to [open an issue](https://github.com/YDaiLab/scRegulate/issues).
+If you have any questions or concerns, feel free to [open an issue](https://github.com/YDaiLab/scRegulate/issues).
 
 ## Requirements
 scRegulate is implemented in the PyTorch framework. Running scRegulate on `CUDA` is highly recommended if available.
@@ -99,9 +99,11 @@ Not directly. While scRegulate focuses on TF activity from RNA, you can incorpor
 **Q7: What file formats are supported?**  
 scRegulate works with `.h5ad` files (AnnData format). Input files should contain gene expression matrices with proper normalization.
 
-**Q7: How do I cite scRegulate?**  
+**Q8: How do I cite scRegulate?**  
 See the [Citation](#citation) section below for the latest reference and preprint link.
 
+**Q9: What if I want to reproduce results?**  
+See the [reproducibility](https://github.com/YDaiLab/scRegulate/issues/reproducibility) section for more information.
 
 ## Citation
 
