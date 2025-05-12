@@ -25,7 +25,6 @@ scRegulate is implemented in the PyTorch framework. Running scRegulate on `CUDA`
 Before installing and running scRegulate, ensure you have the following libraries installed:
 - **PyTorch** (version 2.0 or higher)  
   Install with the exact command from the [PyTorch “Get Started” page](https://pytorch.org/get-started/locally/) for your OS, Python version and (optionally) CUDA toolkit.
-https://pytorch.org/get-started/locally/
 - **NumPy** (version 1.23 or higher)
 - **Scanpy** (version 1.9 or higher)
 - **Anndata** (version 0.8 or higher)
