@@ -63,12 +63,29 @@ conda install -c zandigohar scregulate
 mamba create -n scRegulate -c zandigohar scregulate
 ```
 
+## FAQ
 
-## License
+**Q1: Do I need a GPU to run scRegulate?**  
+No, a GPU is not required. However, using a CUDA-enabled GPU is strongly recommended for faster training and inference, especially with large datasets.
 
-The code in **scRegulate** is licensed under the [MIT License](https://opensource.org/licenses/MIT), which permits academic and commercial use, modification, and distribution. 
+**Q2: Can I use scRegulate with Seurat or R-based tools?**  
+scRegulate is written in Python and works directly with `AnnData` objects (e.g., from Scanpy). You can convert Seurat objects to AnnData using tools like `SeuratDisk`.
 
-Please note that any third-party dependencies bundled with **scRegulate** may have their own respective licenses.
+**Q3: How can I visualize inferred TF activities?**  
+TF activities inferred by scRegulate are stored in the `obsm` slot of the AnnData object. You can use `scanpy.pl.embedding`, `scanpy.pl.heatmap`, or export the matrix for custom plots.
+
+**Q4: What kind of prior networks does scRegulate accept?**  
+scRegulate supports user-provided gene regulatory networks (GRNs) in CSV or matrix format. These can be curated from public databases or inferred from ATAC-seq or motif analysis.
+
+**Q5: Can I use scRegulate for multi-omics integration?**  
+Not directly. While scRegulate focuses on TF activity from RNA, you can incorporate priors derived from other omics (e.g., ATAC) to guide the model.
+
+**Q6: What file formats are supported?**  
+scRegulate works with `.h5ad` files (AnnData format). Input files should contain gene expression matrices with proper normalization.
+
+**Q7: How do I cite scRegulate?**  
+See the [Citation](#citation) section above for the latest reference and preprint link.
+
 
 ## Citation
 
@@ -76,8 +93,14 @@ Please note that any third-party dependencies bundled with **scRegulate** may ha
 
 If you use **scRegulate** in your research, please cite:
 
-Mehrdad Zandigohar, Jalees Rehman and Yang Dai (2025). **scRegulate: Single-Cell Regulatory-Embedded Variational Inference of Transcription Factor Activity from Gene Expression**, Bioinformatics Journal (under review). [DOI link here]
+Mehrdad Zandigohar, Jalees Rehman and Yang Dai (2025). **scRegulate: Single-Cell Regulatory-Embedded Variational Inference of Transcription Factor Activity from Gene Expression**, Bioinformatics Journal (under review).
 
 📄 Read the preprint on bioRxiv: [10.1101/2025.04.17.649372](https://doi.org/10.1101/2025.04.17.649372)
 
+
+## License
+
+The code in **scRegulate** is licensed under the [MIT License](https://opensource.org/licenses/MIT), which permits academic and commercial use, modification, and distribution. 
+
+Please note that any third-party dependencies bundled with **scRegulate** may have their own respective licenses.
 
