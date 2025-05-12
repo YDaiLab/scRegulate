@@ -3,10 +3,6 @@ import urllib.request
 import pandas as pd
 
 def _download_file_if_needed(filename: str, url: str, target_dir: str) -> str:
-    """
-    Download a file from a URL to the target directory if it does not already exist.
-    Returns the full local file path.
-    """
     os.makedirs(target_dir, exist_ok=True)
     filepath = os.path.join(target_dir, filename)
     if not os.path.exists(filepath):
@@ -28,6 +24,7 @@ def collectri_prior(species: str = "human") -> pd.DataFrame:
     Returns:
     - pd.DataFrame with TF-target prior network
     """
+    base_url = "https://github.com/YDaiLab/scRegulate/raw/main/scRegulate/priors/"
     species_to_filename = {
         "human": "collectri_human_net.csv",
         "mouse": "collectri_mouse_net.csv"
@@ -37,7 +34,6 @@ def collectri_prior(species: str = "human") -> pd.DataFrame:
         raise ValueError("species must be either 'human' or 'mouse'")
 
     filename = species_to_filename[species]
-    base_url = "https://github.com/YDaiLab/scRegulate/raw/main/prior/"
     url = base_url + filename
     target_dir = os.path.expanduser("~/.scregulate/priors")
 
