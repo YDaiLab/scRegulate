@@ -26,7 +26,7 @@ dependencies = [
 "Paper (bioRxiv)" = "https://doi.org/10.1101/2025.04.17.649372"
 
 [tool.setuptools.dynamic]
-version = {attr = "scregulate.__version__"}
+version = {file = "scregulate/__version__.py"}
 
 [tool.setuptools.packages.find]
 where = ["."]
