@@ -23,23 +23,29 @@ jobs:
           channel-priority: strict
 
       - name: Install conda-build and anaconda-client
-        shell: bash -l {0}
+        shell: bash
         run: |
+          eval "$(conda shell.bash hook)"
+          conda activate build_env
           conda install conda-build anaconda-client -y
 
       - name: Build conda package
-        shell: bash -l {0}
+        shell: bash
         run: |
+          eval "$(conda shell.bash hook)"
+          conda activate build_env
           export GIT_TAG_NAME="${GITHUB_REF##*/}"
           export GIT_TAG_NAME="${GIT_TAG_NAME#v}"  # strip leading "v" if present
           conda build conda.recipe --output-folder dist \
             --channel conda-forge --channel pytorch
 
       - name: Upload to Anaconda
-        shell: bash -l {0}
+        shell: bash
         env:
           ANACONDA_TOKEN: ${{ secrets.ANACONDA_TOKEN }}
         run: |
+          eval "$(conda shell.bash hook)"
+          conda activate build_env
           for file in dist/*/*.tar.bz2; do
             anaconda -t "$ANACONDA_TOKEN" upload "$file" --force
           done
