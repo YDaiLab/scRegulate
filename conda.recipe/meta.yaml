@@ -19,7 +19,7 @@ requirements:
   run:
     - python >=3.10,<3.11
     - numpy >=1.26
-    - torch >=2.0,<2.3
+    - pytorch >=2.0,<2.3
     - scanpy >=1.10,<1.11
     - anndata >=0.10
     - matplotlib-base >=3.6,<3.9
