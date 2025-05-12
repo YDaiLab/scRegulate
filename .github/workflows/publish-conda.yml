@@ -36,6 +36,10 @@ jobs:
           conda activate build_env
           export GIT_TAG_NAME="${GITHUB_REF##*/}"
           export GIT_TAG_NAME="${GIT_TAG_NAME#v}"  # strip leading "v" if present
+
+          # Inject the version into the Python module so setuptools can read it
+          echo "__version__ = \"${GIT_TAG_NAME}\"" > scregulate/__version__.py
+
           conda build conda.recipe --output-folder dist \
             --channel conda-forge --channel pytorch
 
