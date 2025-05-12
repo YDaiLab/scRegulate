@@ -84,7 +84,7 @@ Not directly. While scRegulate focuses on TF activity from RNA, you can incorpor
 scRegulate works with `.h5ad` files (AnnData format). Input files should contain gene expression matrices with proper normalization.
 
 **Q7: How do I cite scRegulate?**  
-See the [Citation](#citation) section above for the latest reference and preprint link.
+See the [Citation](#citation) section below for the latest reference and preprint link.
 
 
 ## Citation
