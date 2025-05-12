@@ -40,7 +40,7 @@ pip install torch numpy scanpy anndata
 You can install **scRegulate** via pip for a lightweight installation:
 
 ```bash
-pip install scRegulate
+pip install scregulate
 ```
 
 **Option 2:**  
@@ -55,12 +55,12 @@ For users who prefer Conda or Mamba for environment management, you can install 
 
 **Conda:**
 ```bash
-conda install -c zandigohar scRegulate
+conda install -c zandigohar scregulate
 ```
 
 **Mamba:**
 ```bash
-mamba create -n scRegulate -c zandigohar scRegulate
+mamba create -n scRegulate -c zandigohar scregulate
 ```
 
 
