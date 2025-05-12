@@ -29,7 +29,7 @@ jobs:
         run: |
           VERSION="${GITHUB_REF##*/}"
           VERSION="${VERSION#v}"  # Strip leading 'v' if present
-          echo '__version__ = "'"$VERSION"'"' > scregulate/__version__.py
+          echo "__version__ = \"${VERSION}\"" > scregulate/__version__.py
           cat scregulate/__version__.py
 
 
