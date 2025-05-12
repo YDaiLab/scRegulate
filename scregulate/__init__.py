@@ -31,3 +31,5 @@ from .utils import (
     extract_modality,
 )
 
+# GRN prior utilization (collectri)
+from .datasets import collectri_prior
