@@ -36,23 +36,33 @@ pip install torch numpy scanpy anndata
 
 ## Installation
 
+**Option 1:**  
 You can install **scRegulate** via pip for a lightweight installation:
 
 ```bash
 pip install scRegulate
 ```
 
+**Option 2:**  
 Alternatively, if you want the latest, unreleased version, you can install it directly from the source on GitHub:
 
 ```bash
 pip install git+https://github.com/YDaiLab/scRegulate.git
 ```
 
-For users who prefer Conda or Mamba for environment management, you can install **scRegulate** along with extra dependencies using:
+**Option 3:**  
+For users who prefer Conda or Mamba for environment management, you can install **scRegulate** along with extra dependencies:
 
+**Conda:**
 ```bash
-mamba create -n=scRegulate conda-forge::scRegulate
+conda install -c zandigohar scRegulate
 ```
+
+**Mamba:**
+```bash
+mamba create -n scRegulate -c zandigohar scRegulate
+```
+
 
 ## License
 
