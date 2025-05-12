@@ -103,7 +103,7 @@ scRegulate works with `.h5ad` files (AnnData format). Input files should contain
 See the [Citation](#citation) section below for the latest reference and preprint link.
 
 **Q9: How can I reproduce the paper’s results?**  
-See our [Reproducibility Guide](https://github.com/YDaiLab/scRegulate/notebooks/Data_Preparation.ipynb) for step-by-step instructions. Then run scregulate.
+See our [Reproducibility Guide](https://github.com/YDaiLab/scRegulate/blob/main/notebooks/Data_Preparation.ipynb) for step-by-step instructions. Then run scregulate.
 
 ## Citation
 
