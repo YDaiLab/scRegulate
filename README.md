@@ -67,43 +67,43 @@ mamba create -n scRegulate -c zandigohar scregulate
 
 ## FAQ
 
-Q: Do I need a GPU to run scRegulate?
+**Q1: Do I need a GPU to run scRegulate?**  
 No, a GPU is not required. However, using a CUDA-enabled GPU is strongly recommended for faster training and inference, especially with large datasets.
 
-Q: How do I know if I can use a GPU with scRegulate?
+**Q2: How do I know if I can use a GPU with scRegulate?**  
 There are two quick checks:
 
-1. System check
+1. **System check**  
    In your terminal, run `nvidia-smi`. If you see your GPU listed (model, memory, driver version), your machine has an NVIDIA GPU with the driver installed.
 
-2. Python check
+2. **Python check**  
    In a Python shell, run:
-   ```
+   ```python
    import torch
    print(torch.cuda.is_available())  # True means PyTorch can see your GPU
    print(torch.cuda.device_count())  # How many GPUs are usable
    ```
 
-Q: Can I use scRegulate with Seurat or R-based tools?
-scRegulate is written in Python and works directly with AnnData objects (e.g., from Scanpy). You can convert Seurat objects to AnnData using tools like SeuratDisk.
+**Q3: Can I use scRegulate with Seurat or R-based tools?**  
+scRegulate is written in Python and works directly with `AnnData` objects (e.g., from Scanpy). You can convert Seurat objects to AnnData using tools like `SeuratDisk`.
 
-Q: How can I visualize inferred TF activities?
-TF activities inferred by scRegulate are stored in the obsm slot of the AnnData object. You can use scanpy.pl.embedding, scanpy.pl.heatmap, or export the matrix for custom plots.
+**Q4: How can I visualize inferred TF activities?**  
+TF activities inferred by scRegulate are stored in the `obsm` slot of the AnnData object. You can use `scanpy.pl.embedding`, `scanpy.pl.heatmap`, or export the matrix for custom plots.
 
-Q: What kind of prior networks does scRegulate accept?
+**Q5: What kind of prior networks does scRegulate accept?**  
 scRegulate supports user-provided gene regulatory networks (GRNs) in CSV or matrix format. These can be curated from public databases or inferred from ATAC-seq or motif analysis.
 
-Q: Can I use scRegulate for multi-omics integration?
-Not directly. While scRegulate focuses on TF activity from RNA, you can incorporate priors derived from other omics (e.g., ATAC) to guide the model.
+**Q6: Can I use scRegulate for multi-omics integration?**  
+Not directly. While scRegulate focuses on TF activity from RNA, you can incorporate priors derived from other omics (e.g., ATAC) to **guide** the model.
 
-Q: What file formats are supported?
-scRegulate works with .h5ad files (AnnData format). Input files should contain gene expression matrices with proper normalization.
+**Q7: What file formats are supported?**  
+scRegulate works with `.h5ad` files (AnnData format). Input files should contain gene expression matrices with proper normalization.
 
-Q: How do I cite scRegulate?
-See the Citation section in the README for the latest reference and preprint link.
+**Q8: How do I cite scRegulate?**  
+See the [Citation](#citation) section below for the latest reference and preprint link.
 
-Q: How can I reproduce the paper’s results?
-See our Reproducibility Guide at https://github.com/YDaiLab/scRegulate/issues/reproducibility for step-by-step instructions.
+**Q9: How can I reproduce the paper’s results?**  
+See our [Reproducibility Guide](https://github.com/YDaiLab/scRegulate/issues/reproducibility) for step-by-step instructions.
 
 ## Citation
 
