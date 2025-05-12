@@ -11,3 +11,4 @@ dependencies:
   - anndata=0.10.8
   - numpy=1.26.4
   - matplotlib-base>=3.6
+  - optuna >=3.0 
