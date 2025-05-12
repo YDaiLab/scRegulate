@@ -8,7 +8,7 @@ dynamic = ["version"]
 description = "Python Toolkit for Transcription Factor Activity Inference and Clustering of scRNA-seq Data"
 readme = "README.md"
 requires-python = ">=3.8"
-license = {file = "LICENSE"}
+license = "MIT"
 authors = [
   {name = "Mehrdad Zandigohar", email = "mehr.zgohar@gmail.com"},
 ]
