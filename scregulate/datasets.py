@@ -24,7 +24,7 @@ def collectri_prior(species: str = "human") -> pd.DataFrame:
     Returns:
     - pd.DataFrame with TF-target prior network
     """
-    base_url = "https://github.com/YDaiLab/scRegulate/raw/main/scRegulate/priors/"
+    base_url = "https://github.com/YDaiLab/scRegulate/raw/main/priors/"
     species_to_filename = {
         "human": "collectri_human_net.csv",
         "mouse": "collectri_mouse_net.csv"
