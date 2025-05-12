@@ -3,8 +3,8 @@
 
 
 [![GitHub issues](https://img.shields.io/github/issues/YDaiLab/scRegulate)](https://github.com/YDaiLab/scRegulate/issues)
-![Conda](https://img.shields.io/conda/dn/conda-forge/scRegulate)
 [![PyPI - Project](https://img.shields.io/pypi/v/scRegulate)](https://pypi.org/project/scRegulate/)
+[![Conda](https://img.shields.io/conda/dn/conda-forge/scRegulate)](https://anaconda.org/zandigohar/scregulate)
 ![Documentation Status](https://readthedocs.org/projects/scRegulate/badge/?version=latest)
 
 ## Introduction
