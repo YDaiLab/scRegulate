@@ -78,7 +78,7 @@ TF activities inferred by scRegulate are stored in the `obsm` slot of the AnnDat
 scRegulate supports user-provided gene regulatory networks (GRNs) in CSV or matrix format. These can be curated from public databases or inferred from ATAC-seq or motif analysis.
 
 **Q5: Can I use scRegulate for multi-omics integration?**  
-Not directly. While scRegulate focuses on TF activity from RNA, you can incorporate priors derived from other omics (e.g., ATAC) to guide the model.
+Not directly. While scRegulate focuses on TF activity from RNA, you can incorporate priors derived from other omics (e.g., ATAC) to *guide* the model.
 
 **Q6: What file formats are supported?**  
 scRegulate works with `.h5ad` files (AnnData format). Input files should contain gene expression matrices with proper normalization.
