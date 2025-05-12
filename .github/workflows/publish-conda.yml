@@ -15,7 +15,7 @@ jobs:
       - name: Setup Miniconda
         uses: conda-incubator/setup-miniconda@v3.0.4
         with:
-          environment-file: file://./conda.recipe/environment.yml
+          environment-file: ./conda.recipe/environment.yml
           activate-environment: build_env
           auto-update-conda: true
           use-mamba: true
