@@ -1,7 +1,8 @@
 name: build_env
 channels:
-  - conda-forge
   - pytorch
+  - conda-forge
+  - defaults
 dependencies:
   - python=3.10
   - pip
