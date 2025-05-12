@@ -28,10 +28,15 @@ def collectri_prior(species: str = "human") -> pd.DataFrame:
     Returns:
     - pd.DataFrame with TF-target prior network
     """
-    if species not in ["human", "mouse"]:
+    species_to_filename = {
+        "human": "collectri_human_net.csv",
+        "mouse": "collectri_mouse_net.csv"
+    }
+
+    if species not in species_to_filename:
         raise ValueError("species must be either 'human' or 'mouse'")
 
-    filename = f"collectri_{species}_net.csv"
+    filename = species_to_filename[species]
     base_url = "https://github.com/YDaiLab/scRegulate/raw/main/prior/"
     url = base_url + filename
     target_dir = os.path.expanduser("~/.scregulate/priors")
