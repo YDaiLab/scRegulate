@@ -71,7 +71,7 @@ mamba create -n scRegulate -c zandigohar scregulate
 No, a GPU is not required. However, using a CUDA-enabled GPU is strongly recommended for faster training and inference, especially with large datasets.
 
 **Q2: How do I know if I can use a GPU with scRegulate?**  
-A: There are two quick checks:
+There are two quick checks:
 
 1. **System check**  
    In your terminal, run `nvidia-smi`. If you see your GPU listed (model, memory, driver version), your machine has an NVIDIA GPU with the driver installed.
