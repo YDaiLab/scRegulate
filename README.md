@@ -3,7 +3,6 @@
 
 [![GitHub issues](https://img.shields.io/github/issues/YDaiLab/scRegulate)](https://github.com/YDaiLab/scRegulate/issues)
 [![PyPI - Project](https://img.shields.io/pypi/v/scRegulate)](https://pypi.org/project/scRegulate/)
-[![Conda](https://img.shields.io/conda/dn/zandigohar/scregulate)](https://anaconda.org/zandigohar/scregulate)
 [![Conda Version](https://img.shields.io/conda/v/zandigohar/scregulate)](https://anaconda.org/zandigohar/scregulate)
 [![Docs](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://ydailab.github.io/scRegulate/)
 
