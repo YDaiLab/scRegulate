@@ -18,6 +18,11 @@ For further information and example tutorials, please check our [documentation](
 
 If you have any questions or concerns, feel free to [open an issue](https://github.com/YDaiLab/scRegulate/issues).
 
+ **Documentation and Tutorials**  
+- [PBMC 3K Tutorial (HTML)](https://ydailab.github.io/scRegulate/tutorial_main.html)  
+- [Reproducibility Guide (HTML)](https://ydailab.github.io/scRegulate/Data_Preparation.html)
+
+
 ## Requirements
 scRegulate is implemented in the PyTorch framework. Running scRegulate on `CUDA` is highly recommended if available.
 
