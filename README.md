@@ -14,14 +14,11 @@
 <img src="https://raw.githubusercontent.com/YDaiLab/scRegulate/main/assets/Visual_Abstract.png" align="center" />
 <br>
 
-For further information and example tutorials, please check our [documentation](https://readthedocs.org/projects/scRegulate/badge/?version=latest).
-
-If you have any questions or concerns, feel free to [open an issue](https://github.com/YDaiLab/scRegulate/issues).
-
- **Documentation and Tutorials**  
+For further information and example tutorials, please check our documentation:
 - [PBMC 3K Tutorial (HTML)](https://ydailab.github.io/scRegulate/tutorial_main.html)  
 - [Reproducibility Guide (HTML)](https://ydailab.github.io/scRegulate/Data_Preparation.html)
 
+If you have any questions or concerns, feel free to [open an issue](https://github.com/YDaiLab/scRegulate/issues).
 
 ## Requirements
 scRegulate is implemented in the PyTorch framework. Running scRegulate on `CUDA` is highly recommended if available.
