@@ -116,6 +116,13 @@ Mehrdad Zandigohar, Jalees Rehman and Yang Dai (2025). **scRegulate: Single-Cell
 
 📄 Read the preprint on bioRxiv: [10.1101/2025.04.17.649372](https://doi.org/10.1101/2025.04.17.649372)
 
+## Author & Contact
+scRegulate was developed and is actively maintained by Mehrdad Zandigohar as part of his PhD research at the University of Illinois Chicago (UIC), in the lab of Dr. Yang Dai.
+
+📬 For private questions, please email: mzandi2@uic.edu
+🤝 For collaboration inquiries, please contact PI: Dr. Yang Dai (yangdai@uic.edu)
+
+Contributions, feature suggestions, and feedback are always welcome!
 
 ## License
 
