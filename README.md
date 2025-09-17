@@ -5,8 +5,7 @@
 [![Docs](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://ydailab.github.io/scRegulate/)
 [![PyPI - Project](https://img.shields.io/pypi/v/scRegulate)](https://pypi.org/project/scRegulate/)
 [![Conda](https://img.shields.io/conda/v/zandigohar/scregulate?label=conda)](https://anaconda.org/zandigohar/scregulate)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17139420.svg)](https://doi.org/10.5281/zenodo.17139420)
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17139393.svg)](https://doi.org/10.5281/zenodo.17139393)
 
 ## Introduction
 **scRegulate** is a powerful tool designed for the inference of transcription factor activity from single cell/nucleus RNA data using advanced generative modeling techniques. It leverages a unified learning framework to optimize the modeling of cellular regulatory networks, providing researchers with accurate insights into transcriptional regulation. With its efficient clustering capabilities, **scRegulate** facilitates the analysis of complex biological data, making it an essential resource for studies in genomics and molecular biology.
