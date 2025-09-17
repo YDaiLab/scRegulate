@@ -2,9 +2,10 @@
 **S**ingle-**C**ell **Regula**tory-Embedded Variational Inference of **T**ranscription Factor Activity from Gene **E**xpression
 
 [![GitHub issues](https://img.shields.io/github/issues/YDaiLab/scRegulate)](https://github.com/YDaiLab/scRegulate/issues)
+[![Docs](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://ydailab.github.io/scRegulate/)
 [![PyPI - Project](https://img.shields.io/pypi/v/scRegulate)](https://pypi.org/project/scRegulate/)
 [![Conda](https://img.shields.io/conda/v/zandigohar/scregulate?label=conda)](https://anaconda.org/zandigohar/scregulate)
-[![Docs](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://ydailab.github.io/scRegulate/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17139420.svg)](https://doi.org/10.5281/zenodo.17139420)
 
 
 ## Introduction
