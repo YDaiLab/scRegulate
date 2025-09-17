@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="scRegulate",
-    version="0.1.0",
+    version="0.2.0",
     author="Mehrdad Zandigohar",
     author_email="mehr.zgohar@gmail.com",
     description="Python Toolkit for Transcription Factor Activity Inference and Clustering of scRNA-seq Data",
@@ -29,3 +29,4 @@ setup(
         "Operating System :: OS Independent",
     ],
 )
+
