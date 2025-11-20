@@ -108,7 +108,7 @@ See our [Reproducibility Guide](https://github.com/YDaiLab/scRegulate/blob/main/
 
 ## Citation
 
-**scRegulate** manuscript is currently under peer review. 
+**scRegulate** manuscript is accepted for publication at Bioinformatics. 
 
 If you use **scRegulate** in your research, please cite:
 
