@@ -112,7 +112,7 @@ See our [Reproducibility Guide](https://github.com/YDaiLab/scRegulate/blob/main/
 
 If you use **scRegulate** in your research, please cite:
 
-Mehrdad Zandigohar, Jalees Rehman and Yang Dai (2025). **scRegulate: Single-Cell Regulatory-Embedded Variational Inference of Transcription Factor Activity from Gene Expression**, Bioinformatics Journal (under review).
+Mehrdad Zandigohar, Jalees Rehman and Yang Dai (2025). **scRegulate: Single-Cell Regulatory-Embedded Variational Inference of Transcription Factor Activity from Gene Expression**, _Bioinformatics_ (in press).
 
 📄 Read the preprint on bioRxiv: [10.1101/2025.04.17.649372](https://doi.org/10.1101/2025.04.17.649372)
 
