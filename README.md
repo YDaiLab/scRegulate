@@ -108,14 +108,9 @@ See our [Reproducibility Guide](https://github.com/YDaiLab/scRegulate/blob/main/
 
 ## Citation
 
-**scRegulate** manuscript is accepted for publication at Bioinformatics. 
-
 If you use **scRegulate** in your research, please cite:
 
-Mehrdad Zandigohar, Jalees Rehman and Yang Dai (2025). **scRegulate: Single-Cell Regulatory-Embedded Variational Inference of Transcription Factor Activity from Gene Expression**, _Bioinformatics_.
-
-📄 Read the accepted manuscript (in press): [doi.org/10.1093/bioinformatics/btaf638](https://doi.org/10.1093/bioinformatics/btaf638)
-
+Mehrdad Zandigohar, Jalees Rehman, Yang Dai, **scRegulate: single-cell regulatory-embedded variational inference of transcription factor activity from gene expression**, _Bioinformatics_, Volume 41, Issue 12, December 2025, btaf638, [doi.org/10.1093/bioinformatics/btaf638](https://doi.org/10.1093/bioinformatics/btaf638)
 
 ## Development & Contact
 scRegulate was developed and is actively maintained by Mehrdad Zandigohar as part of his PhD research at the University of Illinois Chicago (UIC), in the lab of Dr. Yang Dai.
